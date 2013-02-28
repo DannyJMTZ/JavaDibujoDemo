@@ -14,7 +14,7 @@ import javax.swing.*;
 public class DemoDibujo extends JFrame {
 	
 	final static Color BG = Color.BLUE;
-	final static Color FG = Color.DARK_GRAY;
+	final static Color FG = Color.ORANGE;
 	
 	// constructor
 	public DemoDibujo(){
@@ -42,6 +42,8 @@ public class DemoDibujo extends JFrame {
 		//g2.draw(new Rectangle2D.Double(50, 50, 150, 300));
 		//g2.draw(new RoundRectangle2D.Double(90, 90, 150, 150, 10, 10));
 		
+		
+		
 		//*********************************************************************
 		//					FIGURA IMPOSIBLE
 		//*********************************************************************
@@ -49,6 +51,7 @@ public class DemoDibujo extends JFrame {
 		//*********************************************************************
 		//					CARAS SUPERIORES
 		g2.setPaint( Color.LIGHT_GRAY );
+		
 		g2.fillPolygon(
 		new int[]{20, 127, 76, 283, 355, 355, 390, 215, 217, 285, 215, 145, 217, 215, 164, 58},
 		new int[]{237, 177, 147, 30, 71, 110, 130, 228, 192, 153, 113, 153, 192, 228, 200, 258}, 16);
@@ -61,40 +64,49 @@ public class DemoDibujo extends JFrame {
 		new int[]{284, 318, 318, 457, 473, 473, 457, 390, 457, 527, 510, 545, 598, 389}, 
 		new int[]{588, 569, 526, 450, 459, 498, 490, 526, 569, 526, 520, 498, 526, 649}, 14);
 
-		g2.fillPolygon( new int[]{ 473, 512, 562, 526} , 
-						new int[]{ 300, 320, 290, 272}, 4);
+		g2.fillPolygon(
+		new int[]{ 473, 512, 562, 526} , 
+		new int[]{ 300, 320, 290, 272}, 4);
 		
-		g2.fillPolygon( new int[]{ 602, 660, 623, 602} , 
-						new int[]{ 273, 240, 219, 231}, 4);
+		g2.fillPolygon(
+		new int[]{ 602, 660, 623, 602} , 
+		new int[]{ 273, 240, 219, 231}, 4);
 		
-		g2.fillPolygon( new int[]{ 562 , 602 , 395 , 355} , 
-						new int[]{ 160 , 137 , 28 , 45}, 4);
+		g2.fillPolygon(
+		new int[]{ 562 , 602 , 395 , 355} , 
+		new int[]{ 160 , 137 , 28 , 45}, 4);
 		
-		g2.fillPolygon( new int[]{ 390 , 458, 458, 423} , 
-						new int[]{ 190 , 230, 190, 170}, 4);
+		g2.fillPolygon(
+		new int[]{ 390 , 458, 458, 423} , 
+		new int[]{ 190 , 230, 190, 170}, 4);
 		
 		g2.fillPolygon(
 		new int[]{180, 244, 244, 213},
 		new int[]{590, 628, 588, 570}, 4);
 		
-		
-		g2.fillPolygon( new int[]{ 615, 575, 540, 540} , 
-						new int[]{ 385, 365 , 385, 427}, 4);
+		g2.fillPolygon(
+		new int[]{ 615, 575, 540, 540} , 
+		new int[]{ 385, 365 , 385, 427}, 4);
 		
 		//*********************************************************************
 		//					CARAS LATERALES IZQUIERDA
 		g2.setPaint( Color.DARK_GRAY);
-		g2.fillPolygon( new int[]{ 76 , 127 , 90 , 76 } , 
-						new int[]{ 147 , 177 , 198 , 190 }, 4);
+		
+		g2.fillPolygon(
+		new int[]{ 76 , 127 , 90 , 76 } , 
+		new int[]{ 147 , 177 , 198 , 190 }, 4);
 
-		g2.fillPolygon( new int[]{ 164 , 215 , 215 , 164} , 
-						new int[]{ 200 , 228 , 270 , 240}, 4);
+		g2.fillPolygon(
+		new int[]{ 164 , 215 , 215 , 164} , 
+		new int[]{ 200 , 228 , 270 , 240}, 4);
 		
-		g2.fillPolygon( new int[]{ 20 , 58 , 58 , 20 } , 
-						new int[]{ 237 , 258 , 495 , 475}, 4);
+		g2.fillPolygon(
+		new int[]{ 20 , 58 , 58 , 20 } , 
+		new int[]{ 237 , 258 , 495 , 475}, 4);
 		
-		g2.fillPolygon( new int[]{ 164 , 126 , 126 , 164 } , 
-						new int[]{ 395 , 378 , 335 , 315}, 4);
+		g2.fillPolygon(
+		new int[]{ 164 , 126 , 126 , 164 } , 
+		new int[]{ 395 , 378 , 335 , 315}, 4);
 
 		g2.fillPolygon(
 		new int[]{110, 284, 284, 389, 389, 284, 244, 244, 180, 180, 244, 284, 284, 75, 75, 110}, 
@@ -108,11 +120,13 @@ public class DemoDibujo extends JFrame {
 		new int[]{562, 526, 492, 355, 355, 390, 390, 458, 458, 390, 390, 355, 355, 562},
 		new int[]{290, 272, 290, 210, 190, 170, 190, 230, 150, 111, 130, 110, 45, 160}, 14);
 		
-		g2.fillPolygon( new int[]{ 145, 215, 215 , 181} , 
-						new int[]{ 153, 113, 153 , 173}, 4);
+		g2.fillPolygon(
+		new int[]{ 145, 215, 215 , 181} , 
+		new int[]{ 153, 113, 153 , 173}, 4);
 
-		g2.fillPolygon( new int[]{ 615, 615, 575, 575} , 
-						new int[]{ 304, 385, 365 , 326}, 4);
+		g2.fillPolygon(
+		new int[]{ 615, 615, 575, 575} , 
+		new int[]{ 304, 385, 365 , 326}, 4);
 		
 		//*********************************************************************
 		//					CARAS LATERALES DERECHA
